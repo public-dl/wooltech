@@ -21,7 +21,7 @@ jobs:
       - name: Assemble public files
         run: |
           mkdir _site
-          cp *.html *.css *.js *.png sitemap.xml robots.txt .nojekyll _site/
+          cp *.html *.css *.js *.png *.svg sitemap.xml robots.txt .nojekyll _site/
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
